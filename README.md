@@ -1,6 +1,14 @@
+<!-- 🌊 Animated Header -->
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:111111,100:FF8C00&height=200&section=header&text=Ashish&fontSize=50&fontColor=FF8C00&animation=fadeIn&fontAlignY=35"/>
+</p>
+
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=2500&color=FF8C00&center=true&vCenter=true&width=800&lines=🚀+Ashish+–+Web+Development+Journey"/>
 </p>
+
+---
 
 ![Cohort Banner](./assets/ChaiCode-webdev-2026.webp)
 
@@ -10,10 +18,8 @@
 
 ---
 
-<!-- 🌊 Animated Header -->
-
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:111111,100:FF8C00&height=200&section=header&text=Dev%20Ashish&fontSize=50&fontColor=FF8C00&animation=fadeIn&fontAlignY=35"/>
+  <img src="https://komarev.com/ghpvc/?username=Ashishjha013&label=Profile+Views&color=FF8C00&style=for-the-badge"/>
 </p>
 
 ---
@@ -31,10 +37,6 @@
 ![React](https://img.shields.io/badge/React-Upcoming-6B7280?style=for-the-badge)
 
 </p>
-
-🟢 **Green → Completed**  
-🟠 **Orange → In Progress**  
-⚫ **Gray → Upcoming**
 
 ---
 
@@ -57,38 +59,26 @@ Where I:
 
 ---
 
-## 🚀 Live Project Demos
+## 🚀 Quick Navigation
 
 <p align="center">
-  
-<a href="https://your-live-demo-link.com">
-  <img src="https://img.shields.io/badge/🌐_Live-Demo-FF8C00?style=for-the-badge"/>
+
+<a href="./1-HTML">
+  <img src="https://img.shields.io/badge/📘_HTML-Study_Notes-111111?style=for-the-badge&logo=html5&logoColor=FF8C00"/>
 </a>
 
-<a href="https://github.com/Ashishjha013/Web-Dev-Cohort-2.0/tree/main/5-Projects">
-  <img src="https://img.shields.io/badge/📂_Projects-View_Code-000000?style=for-the-badge&color=FF8C00"/>
+<a href="./2-CSS">
+  <img src="https://img.shields.io/badge/🎨_CSS-Styling-111111?style=for-the-badge&logo=css3&logoColor=FF8C00"/>
 </a>
 
-</p>
+<a href="./3-JavaScript">
+  <img src="https://img.shields.io/badge/⚡_JavaScript-Concepts-111111?style=for-the-badge&logo=javascript&logoColor=FF8C00"/>
+</a>
 
+<a href="./5-Backend">
+  <img src="https://img.shields.io/badge/🚀_Backend-Node_&_Express-111111?style=for-the-badge&logo=nodedotjs&logoColor=FF8C00"/>
+</a>
 
----
-
-## 🚀 Explore Repository
-
-<p align="center">
-  <a href="./1-HTML">
-    <img src="https://img.shields.io/badge/📘_HTML-Study_Notes-000000?style=for-the-badge&color=FF8C00"/>
-  </a>
-  <a href="./2-CSS">
-    <img src="https://img.shields.io/badge/🎨_CSS-Styling_Concepts-000000?style=for-the-badge&color=FF8C00"/>
-  </a>
-  <a href="./3-JavaScript">
-    <img src="https://img.shields.io/badge/⚡_JavaScript-Logic_&_DOM-000000?style=for-the-badge&color=FF8C00"/>
-  </a>
-  <a href="./5-Backend">
-    <img src="https://img.shields.io/badge/🚀_Backend-Node_&_Express-000000?style=for-the-badge&color=FF8C00"/>
-  </a>
 </p>
 
 ---
@@ -108,7 +98,28 @@ Where I:
 
 ---
 
-## 🔥 Repository Activity Graph
+## 📊 Development Stats
+
+<table>
+<tr>
+<td align="center">
+
+### 🔥 GitHub Stats
+<img src="https://github-readme-stats.vercel.app/api?username=Ashishjha013&show_icons=true&theme=tokyonight"/>
+
+</td>
+<td align="center">
+
+### ⚡ Contribution Streak
+<img src="https://streak-stats.demolab.com?user=Ashishjha013&theme=tokyonight"/>
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🔥 Repository Activity
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ashishjha013&theme=tokyo-night"/>
