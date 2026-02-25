@@ -93,13 +93,13 @@ This is my personal knowledge base + practice lab where I:
 
 <p align="center">
   <a href="./1-HTML">
-    <img src="https://img.shields.io/badge/📘_HTML-Study_Notes-E34F26?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/📘https://github.com/Ashishjha013/Web-Dev-Cohort-2.0/tree/main/1-HTML"/>
   </a>
   <a href="./2-CSS">
-    <img src="https://img.shields.io/badge/🎨_CSS-Styling_Concepts-1572B6?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/🎨https://github.com/Ashishjha013/Web-Dev-Cohort-2.0/tree/main/2-CSS"/>
   </a>
   <a href="./3-JavaScript">
-    <img src="https://img.shields.io/badge/⚡_JavaScript-Logic_&_DOM-F7DF1E?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/⚡https://github.com/Ashishjha013/Web-Dev-Cohort-2.0/tree/main/3-JavaScript"/>
   </a>
   <a href="./5-Backend">
     <img src="https://img.shields.io/badge/🚀_Backend-Node_&_Express-339933?style=for-the-badge"/>
