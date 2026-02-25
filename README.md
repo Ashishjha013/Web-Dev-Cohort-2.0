@@ -16,8 +16,24 @@ This repo documents my structured journey through
 - [x] What is Internet  
 - [x] WWW Overview  
 - [x] DNS Basics  
-- [ ] HTTP / HTTPS  
-- [ ] TCP / UDP Deep Dive  
+- [x] HTTP / HTTPS  
+- [x] TCP / UDP Deep Dive  
+
+---
+
+### 📘 HTML
+- [x] HTML Structure  
+- [x] Semantic HTML  
+- [x] Forms & Inputs  
+- [x] Validation  
+
+---
+
+### 🎨 CSS
+- [x] Box Model  
+- [x] Flexbox  
+- [x] Grid  
+- [x] Responsive Design  
 
 ---
 
@@ -29,22 +45,6 @@ This repo documents my structured journey through
 - [ ] DOM Manipulation  
 - [ ] Event Handling  
 - [ ] Fetch API  
-
----
-
-### 📘 HTML
-- [ ] HTML Structure  
-- [ ] Semantic HTML  
-- [ ] Forms & Inputs  
-- [ ] Validation  
-
----
-
-### 🎨 CSS
-- [ ] Box Model  
-- [ ] Flexbox  
-- [ ] Grid  
-- [ ] Responsive Design  
 
 ---
 
