@@ -30,15 +30,19 @@
 
 <p align="center">
 
-![Fundamentals](https://img.shields.io/badge/Fundamentals-Completed-FF8C00?style=for-the-badge)
-![HTML](https://img.shields.io/badge/HTML-Completed-FF8C00?style=for-the-badge)
-![CSS](https://img.shields.io/badge/CSS-Completed-FF8C00?style=for-the-badge)
-![JavaScript](https://img.shields.io/badge/JavaScript-In%20Progress-FF8C00?style=for-the-badge)
-![TypeScript](https://img.shields.io/badge/TypeScript-Upcoming-555555?style=for-the-badge)
-![Backend](https://img.shields.io/badge/Backend-Upcoming-555555?style=for-the-badge)
-![React](https://img.shields.io/badge/React-Upcoming-555555?style=for-the-badge)
+![Fundamentals](https://img.shields.io/badge/Fundamentals-Completed-2EA44F?style=for-the-badge)
+![HTML](https://img.shields.io/badge/HTML-Completed-2EA44F?style=for-the-badge)
+![CSS](https://img.shields.io/badge/CSS-Completed-2EA44F?style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/JavaScript-In%20Progress-F59E0B?style=for-the-badge)
+![TypeScript](https://img.shields.io/badge/TypeScript-Upcoming-6B7280?style=for-the-badge)
+![Backend](https://img.shields.io/badge/Backend-Upcoming-6B7280?style=for-the-badge)
+![React](https://img.shields.io/badge/React-Upcoming-6B7280?style=for-the-badge)
 
 </p>
+
+🟢 **Green → Completed**  
+🟠 **Orange → In Progress**  
+⚫ **Gray → Upcoming**
 
 ---
 
@@ -75,7 +79,7 @@ Where I:
 
 </p>
 
-> ⚠ Replace demo link when deploying projects (Vercel / Netlify)
+> ⚠ Replace demo link when deploying projects
 
 ---
 
@@ -102,21 +106,21 @@ Where I:
 
 <p align="center">
   
-![HTML](https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=E34F26)
-![CSS](https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=1572B6)
-![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![TypeScript](https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=3178C6)
-![Node.js](https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=nodedotjs&logoColor=339933)
-![React](https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=61DAFB)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 
 </p>
 
 ---
 
-## 🔥 Repository Heatmap
+## 🔥 Repository Activity Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ashishjha013&theme=tokyo-night&color=FF8C00&line=FF8C00&point=FFFFFF"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ashishjha013&theme=tokyo-night"/>
 </p>
 
 ---
@@ -129,14 +133,6 @@ Where I:
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Ashishjha013&theme=tokyonight"/>
-</p>
-
----
-
-## 🐍 Contribution Snake
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Ashishjha013/Ashishjha013/output/github-contribution-grid-snake-dark.svg"/>
 </p>
 
 ---
