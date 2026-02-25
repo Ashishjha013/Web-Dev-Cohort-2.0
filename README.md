@@ -2,13 +2,16 @@
 
 ![Cohort Banner](./assets/ChaiCode-webdev-2026.webp)
 
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=3000&color=00F7FF&center=true&vCenter=true&width=600&lines=ChaiCode+Web+Dev+Cohort+2.0;Learning+•+Building+•+Improving"/>
+</p>
+
 Welcome to my Web Development learning repository.
 
 This repo documents my structured journey through  
 **ChaiCode – Web Dev Cohort 2.0**.
 
 ---
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2" width="100%"/>
 
 ## 📈 Progress Tracker
 
@@ -86,6 +89,25 @@ This is my personal knowledge base + practice lab where I:
 
 ---
 
+## 🚀 Explore Repository
+
+<p align="center">
+  <a href="./1-HTML">
+    <img src="https://img.shields.io/badge/📘_HTML-Study_Notes-E34F26?style=for-the-badge"/>
+  </a>
+  <a href="./2-CSS">
+    <img src="https://img.shields.io/badge/🎨_CSS-Styling_Concepts-1572B6?style=for-the-badge"/>
+  </a>
+  <a href="./3-JavaScript">
+    <img src="https://img.shields.io/badge/⚡_JavaScript-Logic_&_DOM-F7DF1E?style=for-the-badge"/>
+  </a>
+  <a href="./5-Backend">
+    <img src="https://img.shields.io/badge/🚀_Backend-Node_&_Express-339933?style=for-the-badge"/>
+  </a>
+</p>
+
+---
+
 ## 🎯 Cohort Learning Coverage
 
 ### 🌐 Fundamentals
@@ -103,7 +125,7 @@ This is my personal knowledge base + practice lab where I:
 - VS Code  
 - Terminal  
 - Git & GitHub  
-- AI-assisted development  
+- AI-assisted Development  
 
 ---
 
@@ -127,7 +149,7 @@ This is my personal knowledge base + practice lab where I:
 - Pseudo Classes & Elements  
 - Animations & Transitions  
 - Gradients & Shadows  
-- Bootstrap / Tailwind  
+- Bootstrap / Tailwind CSS  
 
 ---
 
@@ -137,7 +159,7 @@ This is my personal knowledge base + practice lab where I:
 - Objects & Data Types  
 - ES6+ Features  
 - OOP  
-- Async JS  
+- Async JavaScript  
 - DOM  
 - Events  
 - Fetch API  
@@ -164,7 +186,7 @@ This is my personal knowledge base + practice lab where I:
 - WebSockets  
 - Rate Limiting  
 - Redis / Kafka  
-- Logging / Monitoring  
+- Logging & Monitoring  
 - Deployment  
 
 ---
@@ -176,7 +198,7 @@ This is my personal knowledge base + practice lab where I:
 - Hooks  
 - Routing  
 - Forms  
-- Performance  
+- Performance Optimization  
 - Advanced Patterns  
 
 ---
@@ -204,10 +226,10 @@ This is my personal knowledge base + practice lab where I:
 ---
 
 ### 🏗 Production Projects
-- Auth Systems  
+- Authentication Systems  
 - Authorization Engines  
 - Scalable APIs  
-- AI-powered Apps  
+- AI-powered Applications  
 - RAG Systems  
 
 ---
@@ -220,6 +242,18 @@ This is my personal knowledge base + practice lab where I:
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=tokyonight"/>
+</p>
 
 ---
 
