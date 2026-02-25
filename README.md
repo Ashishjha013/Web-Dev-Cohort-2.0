@@ -18,12 +18,6 @@
 
 ---
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Ashishjha013&label=Profile+Views&color=FF8C00&style=for-the-badge"/>
-</p>
-
----
-
 ## 📈 Progress Dashboard
 
 <p align="center">
