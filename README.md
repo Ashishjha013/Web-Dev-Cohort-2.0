@@ -1,6 +1,6 @@
 # 🚀 Ashish – Web Development Journey
 
-![Cohort Banner](./assets/Cohort-Intro.png)
+![Cohort Banner](./assets/ChaiCode-webdev-2026.webp)
 
 Welcome to my Web Development learning repository.
 
