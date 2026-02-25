@@ -8,6 +8,7 @@ This repo documents my structured journey through
 **ChaiCode – Web Dev Cohort 2.0**.
 
 ---
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2" width="100%"/>
 
 ## 📈 Progress Tracker
 
