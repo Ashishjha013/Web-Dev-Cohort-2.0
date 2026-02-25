@@ -2,7 +2,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=2500&color=FF8C00&center=true&vCenter=true&width=800&lines=🚀+Ashish+–+Web+Development+Journey"/>
 </p>
 
-
 ![Cohort Banner](./assets/ChaiCode-webdev-2026.webp)
 
 <p align="center">
