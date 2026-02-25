@@ -1,3 +1,11 @@
+![Cohort Banner](./assets/ChaiCode-webdev-2026.webp)
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=20&duration=3000&color=FF8C00&center=true&vCenter=true&width=600&lines=ChaiCode+Web+Dev+Cohort+2.0;Learning+•+Building+•+Improving"/>
+</p>
+
+---
+
 <!-- 🌊 Animated Header -->
 
 <p align="center">
@@ -6,14 +14,6 @@
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=2500&color=FF8C00&center=true&vCenter=true&width=800&lines=🚀+Ashish+–+Web+Development+Journey"/>
-</p>
-
----
-
-![Cohort Banner](./assets/ChaiCode-webdev-2026.webp)
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=20&duration=3000&color=FF8C00&center=true&vCenter=true&width=600&lines=ChaiCode+Web+Dev+Cohort+2.0;Learning+•+Building+•+Improving"/>
 </p>
 
 ---
