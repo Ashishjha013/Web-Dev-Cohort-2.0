@@ -79,7 +79,6 @@ Where I:
 
 </p>
 
-> ⚠ Replace demo link when deploying projects
 
 ---
 
