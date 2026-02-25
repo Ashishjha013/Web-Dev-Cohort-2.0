@@ -4,8 +4,6 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:111111,100:FF8C00&height=200&section=header&text=Ashish&fontSize=50&fontColor=FF8C00&animation=fadeIn&fontAlignY=35"/>
 </p>
 
-<!-- ✨ Animated Title -->
-
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=2500&color=FF8C00&center=true&vCenter=true&width=800&lines=🚀+Ashish+–+Web+Development+Journey"/>
 </p>
@@ -18,100 +16,66 @@
   <img src="https://readme-typing-svg.herokuapp.com?size=20&duration=3000&color=FF8C00&center=true&vCenter=true&width=600&lines=ChaiCode+Web+Dev+Cohort+2.0;Learning+•+Building+•+Improving"/>
 </p>
 
-Welcome to my Web Development learning repository.
+---
 
-This repo documents my structured journey through  
-**ChaiCode – Web Dev Cohort 2.0**.
+<!-- 👀 Visitor Counter -->
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Ashishjha013&label=Profile+Views&color=FF8C00&style=for-the-badge"/>
+</p>
 
 ---
 
-## 📈 Progress Tracker
+## 📈 Progress Dashboard
 
-### 🌐 Fundamentals  
-![Progress](https://progress-bar.dev/100/?title=Completed&width=500&color=FF8C00)
+<p align="center">
 
-- [x] Introduction to Computer Networks  
-- [x] What is Internet  
-- [x] WWW Overview  
-- [x] DNS Basics  
-- [x] HTTP / HTTPS  
-- [x] TCP / UDP Deep Dive  
+![Fundamentals](https://img.shields.io/badge/Fundamentals-Completed-FF8C00?style=for-the-badge)
+![HTML](https://img.shields.io/badge/HTML-Completed-FF8C00?style=for-the-badge)
+![CSS](https://img.shields.io/badge/CSS-Completed-FF8C00?style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/JavaScript-In%20Progress-FF8C00?style=for-the-badge)
+![TypeScript](https://img.shields.io/badge/TypeScript-Upcoming-555555?style=for-the-badge)
+![Backend](https://img.shields.io/badge/Backend-Upcoming-555555?style=for-the-badge)
+![React](https://img.shields.io/badge/React-Upcoming-555555?style=for-the-badge)
 
----
-
-### 📘 HTML  
-![Progress](https://progress-bar.dev/100/?title=Completed&width=500&color=FF8C00)
-
-- [x] HTML Structure  
-- [x] Semantic HTML  
-- [x] Forms & Inputs  
-- [x] Validation  
-
----
-
-### 🎨 CSS  
-![Progress](https://progress-bar.dev/100/?title=Completed&width=500&color=FF8C00)
-
-- [x] Box Model  
-- [x] Flexbox  
-- [x] Grid  
-- [x] Responsive Design  
-
----
-
-### ⚡ JavaScript  
-![Progress](https://progress-bar.dev/60/?title=In%20Progress&width=500&color=FF8C00)
-
-- [x] JavaScript Fundamentals  
-- [x] Functions & Scope  
-- [x] Objects & Arrays  
-- [ ] Asynchronous JavaScript  
-- [ ] DOM Manipulation  
-- [ ] Event Handling  
-- [ ] Fetch API  
-
----
-
-### 🔷 TypeScript  
-![Progress](https://progress-bar.dev/0/?title=Upcoming&width=500&color=FF8C00)
-
-- [ ] Type System  
-- [ ] Interfaces & Types  
-- [ ] Generics  
-
----
-
-### 🚀 Backend  
-![Progress](https://progress-bar.dev/0/?title=Upcoming&width=500&color=FF8C00)
-
-- [ ] Node.js Fundamentals  
-- [ ] HTTP Server  
-- [ ] Express.js  
-- [ ] REST APIs  
-- [ ] Databases  
-- [ ] Authentication  
-
----
-
-### ⚛ React  
-![Progress](https://progress-bar.dev/0/?title=Upcoming&width=500&color=FF8C00)
-
-- [ ] React Fundamentals  
-- [ ] Hooks  
-- [ ] Routing  
-- [ ] State Management  
+</p>
 
 ---
 
 ## 🧠 About This Repository
 
-This is my personal knowledge base + practice lab where I:
+This repository acts as my:
+
+✨ Structured Knowledge Base  
+🧠 Revision Companion  
+💻 Code Playground  
+🚀 Project Builder  
+
+Where I:
 
 ✔ Document concepts clearly  
 ✔ Revise core topics  
 ✔ Write hands-on code  
 ✔ Build real-world projects  
-✔ Track my progress publicly  
+✔ Track progress publicly  
+
+---
+
+## 🚀 Live Project Demos
+
+<p align="center">
+  
+<a href="https://your-live-demo-link.com">
+  <img src="https://img.shields.io/badge/🌐_Live-Demo-FF8C00?style=for-the-badge"/>
+</a>
+
+<a href="https://github.com/Ashishjha013/Web-Dev-Cohort-2.0/tree/main/5-Projects">
+  <img src="https://img.shields.io/badge/📂_Projects-View_Code-000000?style=for-the-badge&color=FF8C00"/>
+</a>
+
+</p>
+
+> ⚠ Replace demo link when deploying projects (Vercel / Netlify)
 
 ---
 
@@ -149,6 +113,14 @@ This is my personal knowledge base + practice lab where I:
 
 ---
 
+## 🔥 Repository Heatmap
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ashishjha013&theme=tokyo-night&color=FF8C00&line=FF8C00&point=FFFFFF"/>
+</p>
+
+---
+
 ## 📊 GitHub Stats
 
 <p align="center">
@@ -169,36 +141,8 @@ This is my personal knowledge base + practice lab where I:
 
 ---
 
-## ✨ Learning Philosophy
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:111111,100:FF8C00&height=120&section=footer"/>
+</p>
 
-> **Understand → Practice → Revise → Build**
-
-I focus on:
-
-- Deep conceptual clarity  
-- Writing clean code  
-- Hands-on experimentation  
-- Building real projects  
-- Continuous improvement  
-
----
-
-## 🔥 Goals
-
-- Master full stack development  
-- Become interview-ready  
-- Build production-grade systems  
-- Develop strong problem-solving skills  
-- Think like an engineer  
-
----
-
-## 🌱 Progress Mindset
-
-Web development is a marathon.
-
-Consistency, curiosity, and patience win.
-
----
-
-✨ *Building skills one commit at a time.*
+✨ **Building skills one commit at a time**
