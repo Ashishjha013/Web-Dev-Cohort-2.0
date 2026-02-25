@@ -124,18 +124,6 @@ Where I:
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Ashishjha013&show_icons=true&theme=tokyonight"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Ashishjha013&theme=tokyonight"/>
-</p>
-
----
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:111111,100:FF8C00&height=120&section=footer"/>
 </p>
