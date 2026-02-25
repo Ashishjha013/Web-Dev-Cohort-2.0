@@ -98,27 +98,6 @@ Where I:
 
 ---
 
-## 📊 Development Stats
-
-<table>
-<tr>
-<td align="center">
-
-### 🔥 GitHub Stats
-<img src="https://github-readme-stats.vercel.app/api?username=Ashishjha013&show_icons=true&theme=tokyonight"/>
-
-</td>
-<td align="center">
-
-### ⚡ Contribution Streak
-<img src="https://streak-stats.demolab.com?user=Ashishjha013&theme=tokyonight"/>
-
-</td>
-</tr>
-</table>
-
----
-
 ## 🔥 Repository Activity
 
 <p align="center">
