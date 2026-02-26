@@ -15,7 +15,7 @@
 <!-- 🌊 Animated Header -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:111111,100:FF8C00&height=200&section=header&text=Ashish&fontSize=50&fontColor=FF8C00&animation=fadeIn&fontAlignY=35"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:111111,100:FF8C00&height=200&section=header&text=Dev-Ashish&fontSize=50&fontColor=FF8C00&animation=fadeIn&fontAlignY=35"/>
 </p>
 
 ---
