@@ -1,45 +1,129 @@
-// I create my own method called mapTwo that will work like the map
-// method but it will return the square of each element in the array.
+/*
+====================================================
+JavaScript Prototype Practice (Custom Polyfills)
+Author: Ashish
+Purpose: Understanding how built-in JS methods work
+====================================================
+*/
 
-// My Own Array Methods
+/*
+====================================================
+ARRAY METHODS
+====================================================
+*/
 
-// 1. map()
+/*
+----------------------------------------------------
+1. Custom map() implementation
+----------------------------------------------------
+Description:
+Creates a new array by applying a callback
+to each element of the original array.
+----------------------------------------------------
+*/
+
 Array.prototype.mapOne = function (callback) {
+  if (typeof callback !== 'function') {
+    throw new TypeError('Callback must be a function');
+  }
+
   const result = [];
 
   for (let i = 0; i < this.length; i++) {
     result.push(callback(this[i], i, this));
   }
+
   return result;
 };
-console.log([2, 4, 6, 8].mapOne((num) => num + 1));
 
-// 2. forEach()
+// Example
+const numbers = [2, 4, 6, 8];
+const incremented = numbers.mapOne((num) => num + 1);
+
+console.log('mapOne result:', incremented);
+
+/*
+----------------------------------------------------
+2. Custom forEach() implementation
+----------------------------------------------------
+Description:
+Executes a callback for each array element.
+Does NOT return a new array.
+----------------------------------------------------
+*/
+
 Array.prototype.forEachOne = function (callback) {
+  if (typeof callback !== 'function') {
+    throw new TypeError('Callback must be a function');
+  }
+
   for (let i = 0; i < this.length; i++) {
     callback(this[i], i, this);
   }
 };
+
+// Example
 const arr = [3, 6, 9, 12];
-console.log(arr.forEach((ele) => console.log(ele)));
 
-// 3. reduce()
+console.log('\nforEachOne output:');
+
+arr.forEachOne((ele) => {
+  console.log(ele);
+});
+
+/*
+----------------------------------------------------
+3. Custom reduce() implementation
+----------------------------------------------------
+Description:
+Reduces the array to a single value by
+accumulating results from a callback.
+----------------------------------------------------
+*/
+
 Array.prototype.reduceOne = function (callback, initialValue) {
-  let accumulator = initialValue;
+  if (typeof callback !== 'function') {
+    throw new TypeError('Callback must be a function');
+  }
 
-  for (let i = 0; i < this.length; i++) {
+  let accumulator = initialValue;
+  let startIndex = 0;
+
+  if (accumulator === undefined) {
+    accumulator = this[0];
+    startIndex = 1;
+  }
+
+  for (let i = startIndex; i < this.length; i++) {
     accumulator = callback(accumulator, this[i], i, this);
   }
 
   return accumulator;
 };
+
+// Example
 const nums = [2, 4, 6, 8];
+
 const sum = nums.reduceOne((acc, curr) => acc + curr, 0);
-console.log(sum);
 
-// String Methods
+console.log('\nreduceOne result:', sum);
 
-// 1. toUpperCase()
+/*
+====================================================
+STRING METHODS
+====================================================
+*/
+
+/*
+----------------------------------------------------
+1. Custom toUpperCase()
+----------------------------------------------------
+Description:
+Converts lowercase characters to uppercase
+using ASCII character codes.
+----------------------------------------------------
+*/
+
 String.prototype.toUpperCaseOne = function () {
   let result = '';
 
@@ -55,9 +139,19 @@ String.prototype.toUpperCaseOne = function () {
 
   return result;
 };
-console.log('hello'.toUpperCaseOne());
 
-// 2. reverse()
+// Example
+console.log('\ntoUpperCaseOne:', 'hello'.toUpperCaseOne());
+
+/*
+----------------------------------------------------
+2. Custom reverse()
+----------------------------------------------------
+Description:
+Reverses the characters of a string.
+----------------------------------------------------
+*/
+
 String.prototype.reverseOne = function () {
   let result = '';
 
@@ -67,10 +161,58 @@ String.prototype.reverseOne = function () {
 
   return result;
 };
-console.log('Ashish'.reverseOne());
 
-// 3. includes()
+// Example
+console.log('reverseOne:', 'Ashish'.reverseOne());
+
+/*
+----------------------------------------------------
+3. Custom includes()
+----------------------------------------------------
+Description:
+Checks whether a substring exists inside
+the current string.
+----------------------------------------------------
+*/
+
 String.prototype.includesOne = function (search) {
-  return this.indexOf(search) !== -1;
+  if (search === '') return true;
+
+  for (let i = 0; i <= this.length - search.length; i++) {
+    let match = true;
+
+    for (let j = 0; j < search.length; j++) {
+      if (this[i + j] !== search[j]) {
+        match = false;
+        break;
+      }
+    }
+
+    if (match) return true;
+  }
+
+  return false;
 };
-console.log('javascript'.includesOne('script'));
+
+// Example
+console.log('includesOne:', 'javascript'.includesOne('script'));
+
+/*
+====================================================
+IMPORTANT CONCEPT
+====================================================
+
+Inside prototype methods:
+
+this → the object calling the method
+
+Examples:
+
+[1,2,3].mapOne(...)
+this = [1,2,3]
+
+"hello".toUpperCaseOne()
+this = "hello"
+
+====================================================
+*/
