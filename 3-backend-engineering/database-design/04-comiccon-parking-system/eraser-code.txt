@@ -1,0 +1,71 @@
+title Comic-Con Parking System
+// VECHILE
+vehicle [color: Yellow] {
+  id string pk
+  number_plate string
+  vehicle_type_id fk
+}
+
+// VECHILE TYPE
+vehicle_type [color: Pink] {
+  id string pk
+  vechile_name striing (car, bike, suv)
+}
+
+// PARKING ZONE
+parking_zone [color: Yellow] {
+  zone_id string pk
+  name string (A, B)
+  level int
+}
+
+// PARKING SPOT
+parking_spot [color: Blue] {
+  spot_id string pk
+  is_available boolean
+  zone_id string fk
+  category_id string fk
+}
+
+// SPOT CATEGORY
+spot_category [color: Orange] {
+  category_id string pk
+  name varchar (vip, ev, staff)
+}
+
+// PARKING SESSION
+parking_session [color: Red] {
+  session_id string pk
+  status string (active, completed)
+  vehicle_id string fk
+  spot_id string fk
+  entry_time datetime
+exit_time datetime
+}
+
+// TICKET
+ticket [color: Purple] {
+  ticket_id string pk
+  createdAt string
+  updatedAt string
+}
+
+// PAYMENT
+payment [color: Green] {
+  payment_id string pk
+  session_id string fk
+  amount decimal
+  status string
+}
+
+// RELATIONSHIPS
+vehicle.vehicle_type_id > vehicle_type.id
+
+parking_spot.zone_id > parking_zone.zone_id
+parking_spot.category_id > spot_category.category_id
+
+parking_session.vehicle_id > vehicle.id 
+parking_session.spot_id > parking_spot.spot_id
+parking_session.ticket_id - ticket.ticket_id
+
+payment.session_id - parking_session.session_id
