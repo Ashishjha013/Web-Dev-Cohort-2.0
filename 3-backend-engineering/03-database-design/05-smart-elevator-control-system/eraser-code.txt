@@ -1,0 +1,111 @@
+title Smart Elevator Control
+
+// BUILDING
+building [color: Yellow] {
+  id pk
+  name string
+  address string
+  city string
+  created_at timestamp
+}
+
+// FLOOR
+floor [color: Orange] {
+  id pk
+  building_id fk
+  floor_number int
+  label string
+}
+
+// ELEVATOR SHAFT
+elevator_shaft [color: Gray] {
+  id pk
+  building_id fk
+  shaft_number int
+}
+
+// ELEVATOR
+elevator [color: Blue] {
+  id pk
+  building_id fk
+  shaft_id fk
+  max_capacity int
+  is_active boolean
+  created_at timestamp
+}
+
+// ELEVATOR FLOOR MAPPING
+elevator_floor [color: Pink] {
+  id pk
+  floor_id fk
+  elevator_id id fk
+}
+
+// FLOOR REQUEST
+floor_request [color: Red] {
+  id pk
+  floor_id fk
+  direction string (up, down)
+  status string (pending, assigned, completed)
+  requested_at timestamp
+}
+
+// RIDE ASSIGNMENT
+ride_assignment [color: Purple] {
+  id pk
+  request_id fk
+  elevator_id fk
+  assigned_at timestamp
+}
+
+// RIDE LOG
+ride_log [color: Green] {
+  id pk
+  elevator_id fk
+  start_floor_id fk
+  end_floor_id fk
+  start_time timestamp
+  end_time timestamp
+}
+
+// ELEVATOR STATUS
+elevator_status [color: Cyan] {
+  id pk
+  elevator_id fk
+  status string (idle, moving, maintenance)
+  updated_at timestamp
+}
+
+// MAINTENANCE
+maintenance [color: Brown] {
+  id pk
+  elevator_id fk
+  issue string
+  status string (open, in_progress, resolved)
+  start_time timestamp
+  end_time timestamp
+}
+
+// RELATIONSHIPS
+floor.building_id > building.id: [color: yellow]
+
+elevator.building_id > building.id: [color: yellow]
+elevator.shaft_id > elevator_shaft.id
+
+elevator_shaft.building_id > building.id: [color: yellow]
+
+elevator_floor.elevator_id > elevator.id: [color: Cyan]
+elevator_floor.floor_id > floor.id: [color: yellow]
+
+floor_request.floor_id > floor.id: [color: orange]
+
+ride_assignment.request_id > floor_request.id: [color: yellow]
+ride_assignment.elevator_id > elevator.id: [color: purple]
+
+ride_log.elevator_id > elevator.id: [color: green]
+ride_log.start_floor_id > floor.id: [color: green]
+ride_log.end_floor_id > floor.id: [color: yellow]
+
+elevator_status.elevator_id > elevator.id: [color: Cyan]
+
+maintenance.elevator_id > elevator.id: [color: Cyan]
